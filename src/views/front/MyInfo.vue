@@ -3,6 +3,9 @@
     <div style="width: 80%; margin: 30px auto">
       <div style="margin: 20px 0">
         <el-input placeholder="请输入资料名称" style="width: 200px" size="mini" v-model="name"></el-input>
+        <el-input placeholder="请输入资料名称" style="width: 200px" size="mini" v-model="name"></el-input>
+        <el-input placeholder="请输入资料名称" style="width: 200px" size="mini" v-model="name"></el-input>
+        <el-input placeholder="请输入资料名称" style="width: 200px" size="mini" v-model="name"></el-input>
         <el-button type="info" plain style="margin-left: 10px" size="mini" @click="load(1)">查询</el-button>
         <el-button type="warning" plain style="margin-left: 10px" size="mini" @click="reset">重置</el-button>
         <el-button type="primary" plain size="mini" @click="handleAdd">发布资料</el-button>
